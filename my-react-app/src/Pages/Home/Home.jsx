@@ -4,7 +4,11 @@ import app from '../../icons/app-store.png'
 import hero from '../../assets/hero.png'
 import download from "../../assets/icon-downloads.png"
 import ratings from "../../assets/icon-ratings.png"
+import { Link, useLoaderData } from 'react-router';
+import Apps from '../Apps/Apps';
 const Home = () => {
+    const data=useLoaderData();
+    // console.log(data)
     return (
         <section className=' bg-[#f5f5f5] text-black '>
             <div className='md:p-10 p-5 max-w-9/10 mx-auto  '>
@@ -64,6 +68,16 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <div className='p-5 md:p-10 text-center'>
+                    <h1 className='text-[#001931] font-bold text-3xl'>Trending Apps</h1>
+                    <p className='md:opacity-90 mt-2'>Explore All Trending Apps on the Market developed by us</p>
+                </div>
+                <Apps data={data}></Apps>
+<Link to="/about">
+<div  className='flex justify-center items-center'><button className='btn btn-primary font-bold'>Show All</button></div> <br />
+</Link>
             </div>
         </section>
     );
