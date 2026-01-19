@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/v6w9HmS1/app9.png",
+    "title": "CodeFlow Editor",
+    "companyName": "DevTools Hub",
+    "id": 109,
+    "description": "Powerful mobile IDE for coding on the go with Git support.",
+    "size": 65,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xqXnmgww/app10.jpg",
+    "title": "ZenGarden Meditation",
+    "companyName": "Mindfulness Labs",
+    "id": 110,
+    "description": "Guided meditation sessions to reduce stress and anxiety.",
+    "size": 45,
+    "reviews": 3400,
+    "ratingAvg": 4.9,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 85 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3jBVK76/app11.png",
+    "title": "SwiftScan PDF",
+    "companyName": "Office Suite Pro",
+    "id": 111,
+    "description": "High-quality document scanner with OCR technology.",
+    "size": 30,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nNZJtfSH/app12.jpg",
+    "title": "RoadQuest Maps",
+    "companyName": "GeoNav Systems",
+    "id": 112,
+    "description": "Offline maps and navigation for hikers and travelers.",
+    "size": 250,
+    "reviews": 850,
+    "ratingAvg": 4.2,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KptgDqVN/app13.jpg",
+    "title": "QuickBite Delivery",
+    "companyName": "FoodHub Global",
+    "id": 113,
+    "description": "Order food from your favorite local restaurants instantly.",
+    "size": 22,
+    "reviews": 15600,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GQnGKM7Z/app14.png",
+    "title": "StockSage",
+    "companyName": "Finance Masters",
+    "id": 114,
+    "description": "Real-time stock market analysis and portfolio tracking.",
+    "size": 38,
+    "reviews": 4200,
+    "ratingAvg": 4.5,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WLfqdvZ/app15.jpg",
+    "title": "StarGaze VR",
+    "companyName": "Cosmos Interactive",
+    "id": 115,
+    "description": "Explore the night sky and constellations in virtual reality.",
+    "size": 180,
+    "reviews": 750,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 175 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v4Cx7zJc/app16.jpg",
+    "title": "CryptoVault",
+    "companyName": "SecureChain",
+    "id": 116,
+    "description": "A secure wallet for managing all your digital assets.",
+    "size": 48,
+    "reviews": 9200,
+    "ratingAvg": 4.3,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v4P2Qw6X/app17.jpg",
+    "title": "FitBeat Music",
+    "companyName": "Active Audio",
+    "id": 117,
+    "description": "Dynamic music that matches your workout pace and tempo.",
+    "size": 55,
+    "reviews": 600,
+    "ratingAvg": 4.1,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9m84KftM/app18.png",
+    "title": "NewsStream",
+    "companyName": "Global Media",
+    "id": 118,
+    "description": "Personalized news feed from trusted sources worldwide.",
+    "size": 18,
+    "reviews": 12500,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5hmjrJKD/app19.jpg",
+    "title": "PetLog Care",
+    "companyName": "Animalia Apps",
+    "id": 119,
+    "description": "Keep track of your pet's health, vaccines, and diet.",
+    "size": 25,
+    "reviews": 450,
+    "ratingAvg": 4.7,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 95 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VpmCb74z/app20.jpg",
+    "title": "NightSky Cinema",
+    "companyName": "StreamLine",
+    "id": 120,
+    "description": "Unlimited movies and series with 4K HDR support.",
+    "size": 95,
+    "reviews": 25000,
+    "ratingAvg": 4.6,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rf2H3gB8/app21.jpg",
+    "title": "AutoFix Pro",
+    "companyName": "Mechanic Assistant",
+    "id": 121,
+    "description": "Diagnose car problems and find nearby mechanics fast.",
+    "size": 40,
+    "reviews": 320,
+    "ratingAvg": 3.8,
+    "downloads": 10000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 80 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MxysGvck/app22.jpg",
+    "title": "StudyBuddy",
+    "companyName": "EduTech Group",
+    "id": 122,
+    "description": "Connect with classmates and share notes in real-time.",
+    "size": 33,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zWhLGDV9/app23.png",
+    "title": "EcoTrack",
+    "companyName": "Green Earth",
+    "id": 123,
+    "description": "Measure and reduce your daily carbon footprint easily.",
+    "size": 19,
+    "reviews": 540,
+    "ratingAvg": 4.5,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 250 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kV6f1kFX/app24.jpg",
+    "title": "SleepWell AI",
+    "companyName": "BioHacking Inc",
+    "id": 124,
+    "description": "Analyze sleep patterns and improve your rest quality.",
+    "size": 52,
+    "reviews": 4800,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9mxHPZx1/app25.jpg",
+    "title": "LanguageGo",
+    "companyName": "Vox Populi",
+    "id": 125,
+    "description": "Master vocabulary with flashcards and spaced repetition.",
+    "size": 37,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HpR7154K/app26.jpg",
+    "title": "HomeFixer",
+    "companyName": "DIY Solutions",
+    "id": 126,
+    "description": "Step-by-step video guides for home repair and maintenance.",
+    "size": 75,
+    "reviews": 1350,
+    "ratingAvg": 4.4,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/h5kVsLQ/app27.jpg",
+    "title": "HabitHero",
+    "companyName": "Peak Performance",
+    "id": 127,
+    "description": "Build positive habits with streaks and rewards system.",
+    "size": 28,
+    "reviews": 6700,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gk3tLf7/app28.jpg",
+    "title": "RecipeVault",
+    "companyName": "Culinaria",
+    "id": 128,
+    "description": "Organize your personal recipes and generate grocery lists.",
+    "size": 31,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  }
+]

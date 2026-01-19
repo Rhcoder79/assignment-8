@@ -7,13 +7,16 @@ const Navbar = () => {
      <div>
         <nav className='bg-white p-5' >
          <section className='max-w-[90%] mx-auto flex justify-between items-center text-black '>
-     <div className='flex items-center gap-2'><img src={img} alt="" className='lg:w-12 w-8   '/> 
-     <h1 className='text-blue-800 font-bold lg:text-2xl text-xl'> HERO.IO</h1></div>
+            <Link to='/'> <div className='flex items-center gap-2'>
+         
+        <img src={img} alt="" className='lg:w-12 w-8   '/> 
+     <h1 className='text-blue-800 font-bold lg:text-2xl text-xl'> HERO.IO</h1></div> </Link>
+     
           <div>
             <ul className='flex gap-5'>
 
-                
-              <Link to='/'>  <li className='flex items-center gap-0.5 '><House /> Home</li></Link>
+                <li className='flex items-center gap-0.5 '><House /> Home</li>
+             
                 <Link to='/about'><li className='flex items-center gap-0.5'><LayoutGrid /> Apps</li></Link>
                 <li className='flex items-center gap-0.5'><Download /> Installation</li>
             </ul>
