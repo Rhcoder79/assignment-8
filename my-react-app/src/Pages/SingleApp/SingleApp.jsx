@@ -10,9 +10,9 @@ const SingleApp = ({singleApp}) => {
                 <img className='h-40 w-50 max-w-9/10 mx-auto rounded-xl' src={image} alt="image not found" />
             </div>
             <div className='mt-2'>
-                <h2>{title}: <span>{companyName}</span> </h2>
+                <h2 className='font-bold'>{title}: <span>{companyName}</span> </h2>
                 <div className='flex justify-between mt-2'>
-                    <button className='btn btn-accent'><Download /> {downloads}</button>
+                    <button className='btn btn-accent '><Download /> {downloads}</button>
                     <button className='btn btn-accent'><Star /> {ratingAvg}</button>
                 </div>
 
