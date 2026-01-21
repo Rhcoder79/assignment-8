@@ -5,6 +5,7 @@ import { useLoaderData } from 'react-router';
 import Apps from './Pages/Apps/Apps';
 import { Search } from 'lucide-react';
 import NotFound from './NotFound';
+import { Suspense } from 'react';
 
 const App = () => {
   const AllData=useLoaderData();
@@ -22,7 +23,10 @@ const App = () => {
 </div>
          </div>
        {
-        filterApps.length>0 ?<Apps data={filterApps}></Apps>:<NotFound message="No App Found!"></NotFound>
+        filterApps.length>0 ?(
+    <Suspense fallback={<div className="text-center font-bold">Searching Apps...</div>}>
+      <Apps data={filterApps} />
+    </Suspense>):<NotFound message="No App Found!"></NotFound>
        }  
       {/* // <Apps data={AllData}></Apps> */}
     </div>

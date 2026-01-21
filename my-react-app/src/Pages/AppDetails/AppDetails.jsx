@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import NotFound from '../../NotFound';
 import { Download, FolderKanban, Star } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
+import { toast } from 'react-toastify';
 const AppDetails = () => {
+    const [selected,setSelected]=useState(false);
     const {id}=useParams();
     console.log(id);
     const AppDetail=useLoaderData();
@@ -12,12 +14,15 @@ const AppDetails = () => {
     return <NotFound message={`OOPS!! ${id} Not Found!`} />
    }
     const {image,title,companyName,downloads,ratingAvg,reviews,size,description,ratings}=AppDetail
-     
+     const handleInstall=()=>{
+        setSelected(true);
+        toast(`Yahoo!! ${title} Installed  Successfully`)
+     }
     return (
 <div className='bg-[#f5f5f5] text-black p-5 md:p-10'>
 
-    <div className='max-w-9/10 mx-auto flex justify-between md:gap-10 gap-5 ' >
-        <div className=' w-[15%]'><img src={image} alt="" /></div>
+    <div className='max-w-9/10 mx-auto flex flex-col sm:flex-row justify-between md:gap-10 gap-5 ' >
+        <div className=' w-full sm:w-[15%] '><img src={image} alt="" /></div>
         <div className='  w-[80%] flex flex-col justify-around '>
             <div className="border-b border-blue-800" >
                 <h1 className='text-2xl font-bold text-[#001931]'>{title}</h1>
@@ -41,7 +46,10 @@ const AppDetails = () => {
                 </div>
             </div>
             <br />
-      <div>   <button className='btn text-white  font-bold btn-error '>Install Now ({size} MB)</button></div>
+      <div> 
+<button disabled={selected} onClick={handleInstall}  className='btn text-black border border-black  font-bold btn-error '>
+    {selected?"Installed":`Install Now (${size} MB)`}</button>
+</div>
         </div>
       
     </div><br />
