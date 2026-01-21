@@ -15,7 +15,7 @@ const Navbar = () => {
           <div>
             <ul className='flex gap-5'>
 
-                <li className='flex items-center gap-0.5 '><House /> Home</li>
+                <Link to='/'><li className='flex items-center gap-0.5 '><House /> Home</li> </Link>
              
                 <Link to='/about'><li className='flex items-center gap-0.5'><LayoutGrid /> Apps</li></Link>
                 <li className='flex items-center gap-0.5'><Download /> Installation</li>

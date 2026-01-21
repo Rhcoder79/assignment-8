@@ -10,7 +10,8 @@ const Home = () => {
     const data=useLoaderData();
     // console.log(data)
     return (
-        <section className=' bg-[#f5f5f5] text-black '>
+       <Link to='/'>
+         <section className=' bg-[#f5f5f5] text-black '>
             <div className='md:p-10 p-5 max-w-9/10 mx-auto  '>
                 <div className='flex flex-col gap-2  items-center text-center'>
                 <div><h1 className='text-5xl font-bold'>We Build <br />
@@ -80,6 +81,7 @@ const Home = () => {
 </Link>
             </div>
         </section>
+       </Link>
     );
 };
 
