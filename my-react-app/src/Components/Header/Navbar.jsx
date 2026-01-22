@@ -1,12 +1,16 @@
 import { Download, Github, House, LayoutGrid,Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
 import img from "../../assets/logo.png"
-import { Link } from 'react-router';
+import { NavLink,Link } from 'react-router';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const activeLink = ({ isActive }) => 
+        isActive 
+        ? "flex items-center gap-1 text-blue-800 font-bold border-b-2 border-blue-800" 
+        : "flex items-center gap-1 text-black hover:text-blue-800 transition-all";
     return (
      <div className='sticky top-0 z-50'>
         <nav className='bg-white p-5 relative' >
@@ -19,10 +23,10 @@ const Navbar = () => {
           <div className='hidden md:block'>
             <ul className='flex gap-5'>
 
-                <Link to='/'><li className='flex items-center gap-0.5 '><House /> Home</li> </Link>
+                <NavLink to='/' className={activeLink}><li className='flex items-center gap-0.5 '><House /> Home</li> </NavLink>
              
-                <Link to='/about'><li className='flex items-center gap-0.5'><LayoutGrid /> Apps</li></Link>
-               <Link to="installation"> <li className='flex items-center gap-0.5'><Download /> Installation</li></Link>
+                <NavLink to='/about' className={activeLink}><li className='flex items-center gap-0.5'><LayoutGrid /> Apps</li></NavLink>
+               <NavLink to="installation" className={activeLink}> <li className='flex items-center gap-0.5'><Download /> Installation</li></NavLink>
             </ul>
           </div>
           
@@ -36,9 +40,9 @@ const Navbar = () => {
 {isOpen && (
     <div className='md:hidden bg-white absolute top-full left-0 w-full border-t p-5 shadow-lg z-50'>
         <ul className='flex flex-col gap-5 font-semibold'>
-         <Link to='/' onClick={toggleMenu}><li className='flex items-center gap-2'><House /> Home</li></Link>
-            <Link to='/about' onClick={toggleMenu}><li className='flex items-center gap-2'><LayoutGrid /> Apps</li></Link>
-            <li className='flex items-center gap-2' onClick={toggleMenu}><Download /> Installation</li>
+         <NavLink to='/' className={activeLink} onClick={toggleMenu}><li className='flex items-center gap-2'><House /> Home</li></NavLink>
+            <NavLink to='/about' className={activeLink} onClick={toggleMenu}><li className='flex items-center gap-2'><LayoutGrid /> Apps</li></NavLink>
+           <NavLink to='installation' className={activeLink}><li className='flex items-center gap-2' onClick={toggleMenu}><Download /> Installation</li></NavLink>
             <hr />
             <a href="https://github.com/Rhcoder79" target='_blank'>
                 <button className='btn btn-primary w-full'><Github /> Contribute</button>

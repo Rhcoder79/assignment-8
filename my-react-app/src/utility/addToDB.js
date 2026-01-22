@@ -24,4 +24,9 @@ const addToStoredDB=(id,{title})=>{
   }
 
 }
-export {addToStoredDB,getStoredApp};
+const removeStoredDB=(id)=>{
+    const storedAppData=getStoredApp();
+    const remaining=storedAppData.filter(appId=>parseInt(appId)!==parseInt(id));
+    localStorage.setItem("installation", JSON.stringify(remaining));
+}
+export {addToStoredDB,getStoredApp,removeStoredDB};
