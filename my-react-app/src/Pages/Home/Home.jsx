@@ -10,8 +10,7 @@ const Home = () => {
     const data=useLoaderData();
     // console.log(data)
     return (
-       <Link to='/'>
-         <section className=' bg-[#f5f5f5] text-black '>
+        <section className=' bg-[#f5f5f5] text-black '>
             <div className='md:p-10 p-5 max-w-9/10 mx-auto  '>
                 <div className='flex flex-col gap-2  items-center text-center'>
                 <div><h1 className='text-5xl font-bold'>We Build <br />
@@ -32,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
             </div>
-             <div className='  mt-5 bg-red-600 overflow-hidden'>
+             <div className=' mt-5 bg-red-600 overflow-hidden'>
                <div className='flex justify-center'> <img  src={hero} alt="image not found"  /></div>
                 <div className='bg-blue-600 text-white text-center p-5 md:p-10'>
                     <h1 className='font-bold text-3xl'>Trusted by Millions, Built for You </h1> <br />
@@ -81,7 +80,6 @@ const Home = () => {
 </Link>
             </div>
         </section>
-       </Link>
     );
 };
 

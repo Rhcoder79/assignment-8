@@ -4,8 +4,9 @@ import NotFound from '../../NotFound';
 import { Download, FolderKanban, Star } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 import { toast } from 'react-toastify';
+import { addToStoredDB } from '../../utility/addToDB';
 const AppDetails = () => {
-    const [selected,setSelected]=useState(false);
+    const [selected,setSelected]=useState(false)
     const {id}=useParams();
     console.log(id);
     const AppDetail=useLoaderData();
@@ -14,9 +15,10 @@ const AppDetails = () => {
     return <NotFound message={`OOPS!! ${id} Not Found!`} />
    }
     const {image,title,companyName,downloads,ratingAvg,reviews,size,description,ratings}=AppDetail
-     const handleInstall=()=>{
+     const handleInstall=(id)=>{
         setSelected(true);
-        toast(`Yahoo!! ${title} Installed  Successfully`)
+        // toast(`Yahoo!! ${title} Installed  Successfully`)
+        addToStoredDB(id,{title})
      }
     return (
 <div className='bg-[#f5f5f5] text-black p-5 md:p-10'>
@@ -47,7 +49,7 @@ const AppDetails = () => {
             </div>
             <br />
       <div> 
-<button disabled={selected} onClick={handleInstall}  className='btn text-black border border-black  font-bold btn-error '>
+<button disabled={selected} onClick={()=> handleInstall(id)}  className='btn text-black border border-black  font-bold btn-error '>
     {selected?"Installed":`Install Now (${size} MB)`}</button>
 </div>
         </div>

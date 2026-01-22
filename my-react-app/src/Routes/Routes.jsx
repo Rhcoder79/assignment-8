@@ -3,6 +3,8 @@ import { createBrowserRouter, data } from "react-router";
 import Root from '../Pages/Root/Root';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import { Suspense } from 'react';
+import MyInstall from '../Pages/MyInstall/MyInstall';
+
 // import Home from '../Pages/Home/Home';
 // import App from '../App';
 // import AppDetails from '../Pages/AppDetails/AppDetails';
@@ -38,6 +40,17 @@ export const router = createBrowserRouter([
             <App />
           </Suspense>
            )
+        },
+        {
+       path:'installation',
+        loader: async ()=>{
+                const res1=await fetch('/appData.json');
+                const res2=await fetch('/moreAppData.json');
+                const data1= await res1.json();
+                const data2=await res2.json();
+                return [...data1,...data2];
+            },
+       Component:MyInstall
         },
         {
             path:'/about/:id',
